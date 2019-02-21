@@ -11,6 +11,7 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="css/sm.min.css">
     <link rel="stylesheet" href="css/sm-extend.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-114x114.png">
     <script src="js/zepto.js"></script>
@@ -18,11 +19,43 @@
 <body>
 <div class="page-group">
     <div class="page">
-        <header class="bar bar-nav">
-            <h1 class="title">标题1</h1>
-        </header>
         <div class="content">
-            <a class="back" href="/demos/bar">返回</a>
+            <div class="swiper-container" data-space-between='0' id="index_swiper_wrapper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/index_img1.png" width="100%"></div>
+                    <div class="swiper-slide"><img src="images/index_img1.png" width="100%"></div>
+                    <div class="swiper-slide"><img src="images/index_img1.png" width="100%"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="grid-demo index_menu bgFFF">
+                <div class="row">
+                    <div class="col-33">
+                        <a href="#">
+                            <img src="images/icon_home_btn1.png">
+                            <span>订单详情</span>
+                        </a>
+                    </div>
+                    <div class="col-33">
+                        <a href="#">
+                            <img src="images/icon_home_btn2.png">
+                            <span>订单详情</span>
+                        </a>
+                    </div>
+                    <div class="col-33">
+                        <a href="#" class="test1">
+                            <img src="images/icon_home_btn3.png">
+                            <span>订单详情</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bgFFF">
+                22222
+            </div>
+
         </div>
     </div>
 
@@ -30,5 +63,6 @@
 <script src="js/sm.min.js"></script>
 <script src="js/sm-extend.min.js"></script>
 <script src="js/sm-city-picker.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
