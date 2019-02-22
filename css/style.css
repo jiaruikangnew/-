@@ -1,0 +1,39 @@
+.bgFFF{
+    background: #fff;
+    clear: both;
+    height:auto;
+    overflow: hidden;
+}
+#index_swiper_wrapper{
+    position: relative;
+    padding-bottom: 0;
+}
+#index_swiper_wrapper .swiper-pagination{
+    position: absolute;
+    bottom: 0.2rem;
+}
+#index_swiper_wrapper .swiper-pagination .swiper-pagination-bullet{
+    background: #fff;
+    opacity: 0.8;
+    margin: 0 0.2rem;
+}
+#index_swiper_wrapper .swiper-pagination .swiper-pagination-bullet-active{
+    background: #00d2d4;
+    width: 0.8rem;
+    border-radius: 0.2rem;
+}
+.index_menu{
+    padding: 10px 0;
+}
+.index_menu a{
+    text-align: center;
+}
+.index_menu a img{
+    display: block;
+    margin: 0 auto;
+    width: 2.27rem; /**22.08**/
+}
+.index_menu a span{
+    display: block;
+    font-size: 14px;
+}
